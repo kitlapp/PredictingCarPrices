@@ -3,7 +3,7 @@ This project focuses on predicting car prices using Multiple Linear Regression (
 
 This is my first ever completed project. Specifically, I performed Data Cleaning, Exploratory Data Analysis, Feature Selection, Feature Engineering, Model Assumption Examinations, and Machine Learning (Multiple Linear Regression - MLR). The dataset was provided from an online course (for more info about this course, read my previous README files).
 
-What I gained from this project?
+What I gained from this project?  
 The most valuable part of this project, in terms of practicing my skills, was at its end, i.e., after making the predictions with the model. Here’s what I learned and plan to do next:
 1) Guide for MLR Model Checks  
 It would be beneficial to create a detailed guide with steps to check the predictions of MLR models. For example, "Step 3: Make a scatter plot of Predictions vs. Residuals to check if there is any pattern in the residuals. If there is no specific pattern, this is a good indicator for your model."
