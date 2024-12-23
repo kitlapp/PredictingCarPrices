@@ -1,5 +1,5 @@
 # Predicting Used Car Prices Using Multiple Linear Regression
-It contains the creation of a baseline multiple linear regression (MLR) model to predict used car prices. 
+It contains the creation of a quick multiple linear regression (MLR) model to predict used car prices. 
 
 *****************************************************************************************************************************************************************************************************************************************************
 NOTE: I greatly acknowledge the Udemy course 'The Data Science Course: Complete Data Science Bootcamp 2024' (URL: https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/?couponCode=ST21MT121624) for sharing the dataset. If there are any restrictions regarding sharing this dataset through my GitHub, please contact me via Udemy at userID 'Kimon Ioannis Lappas' and I will immediately delete both the original and cleaned datasets.
