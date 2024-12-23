@@ -1,21 +1,29 @@
-# mlr_car_price
-This project focuses on predicting car prices using Multiple Linear Regression (MLR).
+# Predicting Used Car Prices Using Multiple Linear Regression
+It contains the creation of a baseline multiple linear regression (MLR) model to predict used car prices. 
 
-This is my first ever completed project. Specifically, I performed Data Cleaning, Exploratory Data Analysis, Feature Selection, Feature Engineering, Model Assumption Examinations, and Machine Learning (Multiple Linear Regression - MLR). The dataset was provided from an online course (for more info about this course, read my previous README files).
+*****************************************************************************************************************************************************************************************************************************************************
+NOTE: I greatly acknowledge the Udemy course 'The Data Science Course: Complete Data Science Bootcamp 2024' (URL: https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/?couponCode=ST21MT121624) for sharing the dataset. If there are any restrictions regarding sharing this dataset through my GitHub, please contact me via Udemy at userID 'Kimon Ioannis Lappas' and I will immediately delete both the original and cleaned datasets.
+*****************************************************************************************************************************************************************************************************************************************************
 
-What I gained from this project?  
-The most valuable part of this project, in terms of practicing my skills, was at its end, i.e., after making the predictions with the model. Here’s what I learned and plan to do next:
-1) Guide for MLR Model Checks  
-It would be beneficial to create a detailed guide with steps to check the predictions of MLR models. For example, "Step 3: Make a scatter plot of Predictions vs. Residuals to check if there is any pattern in the residuals. If there is no specific pattern, this is a good indicator for your model."
-2) Creating Utility Functions  
-Having completed this project at a somewhat advanced level, I realized it would be useful to develop a new project including custom functions. These functions can help speed up and organize future work, not only in Machine Learning but in Data Science in general.
-3) Model Improvement and Comparison  
-I want to try improving this model by further feature selection, feature engineering, etc., and compare the results with the current model. This will help me understand how adjustments in features and other parameters influence metrics like the adjusted R-Squared.
-4) Rethinking 'Difference %'  
-I questioned the usefulness of the 'Difference %' column in df_comparison. It seems to underestimate the percentage difference if the prediction is less than the actual price and overestimates it if the prediction is greater. Creating a function with more comprehensive metrics might provide a clearer picture of predictions, avoiding the misleading conclusions this single column might lead to.
-5) Understanding ML Model Results  
-Implementing a Machine Learning model might be straightforward, but fully understanding its results and making improvements is the real challenge.
-6) Prepared Dataset for Further Analysis  
-I exported a cleaned DataFrame that includes all the features from the original raw data. This dataset can be used for extensive model checks, comparisons, and statistical tests in future projects.
+## FILES INCLUDED:
+1. Data Files X 3:
+   * Original file (.csv)
+   * Cleaned file (.csv)
+   * Model performance results (.csv)
+3. The core file, named 'main' (.ipynb) X 1
+   <br>-->  I clear the cell outputs in Jupyter to maintain a clean code appearance. Please follow the instructions below to see how my code is executed and also view the generated .png files.
+4. Visualizations X 15 (.png)
+5. The README File
 
-Thank you!
+--> 20 Files in Total <--
+
+## HOW TO SET UP THE ENVIRONMENT:
+1. Download the project as a zip file or clone the repository to your local machine.
+2. Open Anaconda Prompt and type:
+   <br>--> conda create --name 'YourEnvName' python=3.11.9 jupyterlab=4.2.2 pandas=2.2.2 numpy=2.0.0 matplotlib=3.8.4 seaborn=0.13.2 statsmodels=0.14.2 scikit-learn=1.5.0 -c conda-forge
+3. Activate the newly-created environment.
+4. Launch Jupyter via Anaconda Prompt.
+5. Open the project's Jupyter named 'main'.
+6. Enjoy!
+
+--> Thanks for your time! Feel free to connect with me on LinkedIn: linkedin.com/in/kimon-ioannis-lappas!!! <--
